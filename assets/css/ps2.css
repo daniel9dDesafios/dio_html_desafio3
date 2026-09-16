@@ -1,0 +1,14 @@
+.ps2-console-fig {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+.tab-recursos {
+    text-align: left;
+}
+
+figcaption {
+    padding: 20px;
+}

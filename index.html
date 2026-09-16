@@ -1,44 +1,245 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+<html lang="pt-BR">
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+    <head>
+        <meta charset="UTF-8">
+
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0">
+
+        <title>Console Wiki</title>
+
+        <link
+            rel="stylesheet"
+            href="assets/css/style.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <a
+                href="/"
+                class="logo"
+                aria-label="Página inicial">
+                <img
+                    src="assets/images/logo.png"
+                    width="200"
+                    alt="Logo da Console Wiki">
+            </a>
+        </header>
+
+        <div
+            class="bar"
+            aria-hidden="true"></div>
+
+        <div class="content">
+
+            <nav
+                class="sidebar"
+                aria-label="Navegação principal">
+                <h2>Consoles</h2>
+
+                <ul>
+                    <li>
+                        <a href="ps2.html">
+                            PlayStation 2
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="xbox360.html">
+                            Xbox 360
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <main class="main">
+
+                <article>
+
+                    <header class="home-header">
+                        <h1>Console Wiki</h1>
+
+                        <p>
+                            Bem-vindo à Console Wiki, uma enciclopédia dedicada
+                            à história, hardware, jogos e legado dos consoles
+                            de videogame.
+                        </p>
+
+                        <p>
+                            Explore abaixo os artigos atualmente disponíveis.
+                        </p>
+                    </header>
+
+                    <section
+                        class="featured"
+                        aria-labelledby="featured-title">
+                        <h2 id="featured-title">
+                            Consoles em destaque
+                        </h2>
+
+                        <div class="featured-grid">
+
+                            <article class="console-card">
+
+                                <figure>
+                                    <img
+                                        src="assets/images/ps2_console.png"
+                                        alt="Console PlayStation 2">
+                                </figure>
+
+                                <div class="console-card-content">
+
+                                    <header>
+                                        <h3>
+                                            <a href="ps2.html">
+                                                PlayStation 2
+                                            </a>
+                                        </h3>
+
+                                        <p class="console-meta">
+                                            Sony · 2000 · 6ª geração
+                                        </p>
+                                    </header>
+
+                                    <p>
+                                        Sucessor do primeiro PlayStation,
+                                        o PlayStation 2 tornou-se um dos
+                                        consoles mais importantes e populares
+                                        da história dos videogames.
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            CPU Emotion Engine
+                                        </li>
+
+                                        <li>
+                                            GPU Graphics Synthesizer
+                                        </li>
+
+                                        <li>
+                                            Leitor de DVD
+                                        </li>
+
+                                        <li>
+                                            PlayStation 2 Slim
+                                        </li>
+                                    </ul>
+
+                                    <a
+                                        class="console-card-link"
+                                        href="ps2.html">
+                                        Ler artigo completo
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                            <article class="console-card">
+
+                                <figure>
+                                    <img
+                                        src="assets/images/xbox360_console.png"
+                                        alt="Console Xbox 360">
+                                </figure>
+
+                                <div class="console-card-content">
+
+                                    <header>
+                                        <h3>
+                                            <a href="xbox360.html">
+                                                Xbox 360
+                                            </a>
+                                        </h3>
+
+                                        <p class="console-meta">
+                                            Microsoft · 2005 · 7ª geração
+                                        </p>
+                                    </header>
+
+                                    <p>
+                                        Segundo console da Microsoft,
+                                        o Xbox 360 teve grande importância
+                                        na popularização dos serviços online,
+                                        jogos digitais e conquistas.
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            CPU PowerPC Xenon
+                                        </li>
+
+                                        <li>
+                                            GPU ATI Xenos
+                                        </li>
+
+                                        <li>
+                                            Xbox Live
+                                        </li>
+
+                                        <li>
+                                            Kinect
+                                        </li>
+                                    </ul>
+
+                                    <a
+                                        class="console-card-link"
+                                        href="xbox360.html">
+                                        Ler artigo completo
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </section>
+
+                </article>
+
+            </main>
+
         </div>
-    </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <section aria-labelledby="footer-about-title">
 
-    <div class="bar"></div>
+                    <p>
+                        Enciclopédia dedicada à história, hardware, jogos e
+                        legado
+                        dos consoles de videogame.
+                    </p>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+                </section>
 
-        <div class="main">
-            
-        </div>
+                <nav aria-label="Navegação do rodapé">
+                    <ul>
+                        <li>
+                            <a href="/">Página inicial</a>
+                        </li>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+                        <li>
+                            <a href="ps2.html">PlayStation 2</a>
+                        </li>
 
-    <div class="footer">
+                        <li>
+                            <a href="xbox360.html">Xbox 360</a>
+                        </li>
 
-    </div>
-</body>
+                    </ul>
+                </nav>
+
+                <p class="footer-meta">
+                    Última atualização da wiki: 2026
+                </p>
+            </div>
+        </footer>
+
+    </body>
+
 </html>
